@@ -1,0 +1,74 @@
+/* Portfolio App Styles */
+
+/* Custom cursor hiding on desktop */
+@media (min-width: 769px) {
+  .portfolio-app * {
+    cursor: none !important;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Font families */
+.font-mono {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
+}
+
+/* Line clamp utility */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-cyan);
+  border-radius: 3px;
+  opacity: 0.3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  opacity: 0.6;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(0, 229, 255, 0.15);
+  color: var(--text-primary);
+}
+
+/* Canvas styles */
+canvas {
+  display: block;
+}
+
+/* Marquee animation for testimonials */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
