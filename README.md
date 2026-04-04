@@ -27,8 +27,8 @@
 
 ## 🚀 Quick Start
 ```bash
-git clone https://github.com/thevishingh/neoreact-portfolio.git
-cd neoreact-portfolio
+https://github.com/thevishingh/Devish-portfolio.git
+cd Devish-portfolio
 npm install
 npm run dev
 ```
