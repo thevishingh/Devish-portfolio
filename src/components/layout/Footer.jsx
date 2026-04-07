@@ -18,7 +18,7 @@ export default function Footer() {
                 <Code2 className="w-5 h-5 text-[var(--accent-cyan)]" />
               </div>
               <span className="font-mono font-bold text-lg text-[var(--text-primary)]">
-                alex<span className="text-[var(--accent-cyan)]">.dev</span>
+                Dev<span className="text-[var(--accent-cyan)]">.vish</span>
               </span>
             </div>
             <p className="text-[var(--text-secondary)] text-sm leading-relaxed max-w-xs">

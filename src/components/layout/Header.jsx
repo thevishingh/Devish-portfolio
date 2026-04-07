@@ -39,7 +39,7 @@ export default function Header() {
             <Code2 className="w-5 h-5 text-[var(--accent-cyan)]" />
           </div>
           <span className="font-mono font-bold text-lg text-[var(--text-primary)] tracking-tight">
-            alex<span className="text-[var(--accent-cyan)]">.dev</span>
+            Dev<span className="text-[var(--accent-cyan)]">.vish</span>
           </span>
         </Link>
 
@@ -86,7 +86,7 @@ export default function Header() {
                 transition={{ duration: 0.2 }}
               >
                 {isDark ? (
-                  <Sun className="w-4 h-4 text-[var(--accent-cyan)]" />
+                  <Sun className="w-4 dark:text-yellow-500 h-4 text-[var(--accent-cyan)]" />
                 ) : (
                   <Moon className="w-4 h-4 text-[var(--text-secondary)]" />
                 )}

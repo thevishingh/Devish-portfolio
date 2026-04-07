@@ -111,7 +111,7 @@ export default function Preloader({ onComplete }) {
               color: 'var(--text-primary, #e8eaed)',
             }}
           >
-            alex<span style={{ color: 'var(--accent-cyan, #00e5ff)' }}>.dev</span>
+            Dev<span style={{ color: 'var(--accent-cyan, #00e5ff)' }}>.vish</span>
           </motion.h1>
 
           {/* Tagline with typewriter */}
@@ -125,7 +125,7 @@ export default function Preloader({ onComplete }) {
               color: 'var(--text-secondary, #8b95a5)',
             }}
           >
-            Initializing portfolio...
+            Turning code into creativity...
           </motion.p>
 
           {/* Progress bar */}
